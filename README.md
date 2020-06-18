@@ -12,4 +12,4 @@ To run:
 ```
 mpiexec -n 4 ./cov
 ```
-where 4 is the number of processors. You can give any integer value greater than 1. But generally machines have 4 processors, so giving value of n greater 4 will create lot of overhead and actually increase the time taken.
+where 4 is the number of processors. You can give any positive integer value to n. But generally machines have 4 processors, so giving value of n greater 4 will create lot of overhead and actually increase the time taken.
